@@ -1,6 +1,6 @@
 // ##NN README Writer
 // ##LL Kotlin
-// ##WW n/a
+// ##WW 
 // ##DD Writes a description of the daily programming problems handles with a link to their file for the ease of the README on github.
 // ##CC
 
@@ -87,7 +87,7 @@ fun writeREADME()
 
             readmeFile.appendText("\n### " + item.title)
             readmeFile.appendText("\n" + item.desc)
-            readmeFile.appendText("\n" + item.site)
+            readmeFile.appendText("\n\n" + item.site)
             readmeFile.appendText("\n")
         }
         readmeFile.appendText("\n\n")
@@ -124,7 +124,7 @@ fun scanFiles():ArrayList<FilesData>
             var title = "Title"
             var lang = "Language"
             var site = "Site"
-            var desc = "Description"
+            var desc = ""
 
             //read file for challenge information
             var cont = true
@@ -137,7 +137,7 @@ fun scanFiles():ArrayList<FilesData>
                             that.contains("##NN") -> title = that.split("##NN ")[1].trim()
                             that.contains("##LL") -> lang = that.split("##LL ")[1].trim()
                             that.contains("##WW") -> site = that.split("##WW ")[1].trim()
-                            that.contains("##DD") -> desc = that.split("##DD ")[1].trim()
+                            that.contains("##DD") -> desc = desc + "\n\n" + that.split("##DD ")[1].trim()
                             that.contains("##CC") -> cont = false
                             else -> false
                         }

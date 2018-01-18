@@ -1,7 +1,8 @@
 // ##NN [Easy] Countdown Game Show
 // ##LL Kotlin
 // ##WW https://www.reddit.com/r/dailyprogrammer/comments/6fe9cv/20170605_challenge_318_easy_countdown_game_show/
-// ##DD This one was quite difficult for me, as I have not learned recursion at the time I took this project on. Just getting the recusion was a difficult enough task, the permutation just increased it. > The rules are pretty simple: Given a set of numbers X1-X5, calculate using mathematical operations to solve for Y. No PEMDAS.
+// ##DD > The rules are pretty simple: Given a set of numbers X1-X5, calculate using mathematical operations to solve for Y. No PEMDAS.
+// ##DD This one was quite difficult for me, as I have not learned recursion at the time I took this project on. Just getting the recusion was a difficult enough task, the permutation just increased it. 
 // ##CC
 
 package munkurious.countdowngameshow

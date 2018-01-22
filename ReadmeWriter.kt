@@ -36,7 +36,7 @@ fun writeREADME()
     val readmeFile = File("README.md")
 
     readmeFile.writeText("# Daily Programming Tasks")
-    readmeFile.appendText("\nA place for me to hold all of my daily programming challenges, and other small programming challenges I do for fun. Most are from /r/DailyProgramming, but others are not.\n")
+    readmeFile.appendText("\nA place for me to hold all of my daily programming challenges, and other small programming challenges I do for fun. Some from /r/DailyProgrammer, some from https://techdevguide.withgoogle.com/ , and others somewhere else.\n")
 
     var newList = ArrayList<ArrayList<FilesData>>()
     var list = scanFiles()

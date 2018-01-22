@@ -1,4 +1,4 @@
-// ##NN [Easy] First Recurring Character
+// ##NN First Recurring Character
 // ##LL Kotlin
 // ##WW https://www.reddit.com/r/dailyprogrammer/comments/7cnqtw/20171113_challenge_340_easy_first_recurring/
 // ##DD > Write a program that outputs the first recurring character in a string.
